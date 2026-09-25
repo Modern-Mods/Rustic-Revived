@@ -47,7 +47,7 @@ jobs:
           echo "release_version=${VERSION}+mc${MC}-build.${{ github.run_number }}" >> "$GITHUB_OUTPUT"
 
       - name: Setup Gradle
-        uses: gradle/actions/setup-gradle@v4
+        uses: gradle/actions/setup-gradle@v6
 
       - name: Make gradlew executable
         run: chmod +x gradlew

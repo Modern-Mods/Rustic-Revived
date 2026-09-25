@@ -1,0 +1,29 @@
+{
+  "type": "rusticrevived:condenser",
+  "advanced": true,
+  "bottle": "minecraft:glass_bottle",
+  "fluid": {
+    "amount": 125,
+    "ingredient": "minecraft:water"
+  },
+  "ingredients": [
+    "rusticrevived:chili_pepper",
+    "minecraft:blaze_powder",
+    "minecraft:netherrack"
+  ],
+  "modifier": "rusticrevived:horsetail",
+  "result": {
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "duration": 9600,
+            "id": "rusticrevived:blazing_trail",
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "id": "rusticrevived:elixir"
+  }
+}

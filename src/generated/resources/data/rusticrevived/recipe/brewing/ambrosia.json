@@ -1,0 +1,9 @@
+{
+  "type": "rusticrevived:brewing",
+  "input": "rusticrevived:golden_apple_juice",
+  "quality": "ambrosia",
+  "result": {
+    "amount": 1,
+    "id": "rusticrevived:ambrosia"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": "#c:glass_panes/colorless",
+    "P": "#minecraft:planks",
+    "S": "#c:rods/wooden",
+    "T": "minecraft:torch"
+  },
+  "pattern": [
+    "SPS",
+    "GTG",
+    "SPS"
+  ],
+  "result": {
+    "id": "rusticrevived:lantern_wood"
+  }
+}

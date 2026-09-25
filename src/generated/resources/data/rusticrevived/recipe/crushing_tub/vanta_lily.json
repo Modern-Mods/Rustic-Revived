@@ -1,0 +1,8 @@
+{
+  "type": "rusticrevived:crushing_tub",
+  "ingredient": "rusticrevived:vanta_lily",
+  "result": {
+    "amount": 250,
+    "id": "rusticrevived:vanta_oil"
+  }
+}

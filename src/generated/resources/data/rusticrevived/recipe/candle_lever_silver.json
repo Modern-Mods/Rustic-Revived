@@ -1,0 +1,28 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "rusticrevived:config",
+      "option": "enableSilverDecor"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/silver"
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "C": "rusticrevived:candle_silver",
+    "R": "#c:dusts/redstone"
+  },
+  "pattern": [
+    "C",
+    "R"
+  ],
+  "result": {
+    "id": "rusticrevived:candle_lever_silver"
+  }
+}

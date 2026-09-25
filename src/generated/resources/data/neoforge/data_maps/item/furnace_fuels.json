@@ -1,0 +1,151 @@
+{
+  "values": {
+    "rusticrevived:apiary": {
+      "burn_time": 300
+    },
+    "rusticrevived:apple_sapling": {
+      "burn_time": 100
+    },
+    "rusticrevived:barrel": {
+      "burn_time": 300
+    },
+    "rusticrevived:brewing_barrel": {
+      "burn_time": 300
+    },
+    "rusticrevived:cabinet": {
+      "burn_time": 300
+    },
+    "rusticrevived:chair_acacia": {
+      "burn_time": 300
+    },
+    "rusticrevived:chair_bamboo": {
+      "burn_time": 300
+    },
+    "rusticrevived:chair_birch": {
+      "burn_time": 300
+    },
+    "rusticrevived:chair_cherry": {
+      "burn_time": 300
+    },
+    "rusticrevived:chair_dark_oak": {
+      "burn_time": 300
+    },
+    "rusticrevived:chair_ironwood": {
+      "burn_time": 300
+    },
+    "rusticrevived:chair_jungle": {
+      "burn_time": 300
+    },
+    "rusticrevived:chair_mangrove": {
+      "burn_time": 300
+    },
+    "rusticrevived:chair_oak": {
+      "burn_time": 300
+    },
+    "rusticrevived:chair_olive": {
+      "burn_time": 300
+    },
+    "rusticrevived:chair_spruce": {
+      "burn_time": 300
+    },
+    "rusticrevived:crushing_tub": {
+      "burn_time": 300
+    },
+    "rusticrevived:ironwood_sapling": {
+      "burn_time": 100
+    },
+    "rusticrevived:lantern_wood": {
+      "burn_time": 300
+    },
+    "rusticrevived:liquid_barrel": {
+      "burn_time": 300
+    },
+    "rusticrevived:olive_sapling": {
+      "burn_time": 100
+    },
+    "rusticrevived:painted_wood_black": {
+      "burn_time": 300
+    },
+    "rusticrevived:painted_wood_blue": {
+      "burn_time": 300
+    },
+    "rusticrevived:painted_wood_brown": {
+      "burn_time": 300
+    },
+    "rusticrevived:painted_wood_cyan": {
+      "burn_time": 300
+    },
+    "rusticrevived:painted_wood_gray": {
+      "burn_time": 300
+    },
+    "rusticrevived:painted_wood_green": {
+      "burn_time": 300
+    },
+    "rusticrevived:painted_wood_light_blue": {
+      "burn_time": 300
+    },
+    "rusticrevived:painted_wood_light_gray": {
+      "burn_time": 300
+    },
+    "rusticrevived:painted_wood_lime": {
+      "burn_time": 300
+    },
+    "rusticrevived:painted_wood_magenta": {
+      "burn_time": 300
+    },
+    "rusticrevived:painted_wood_orange": {
+      "burn_time": 300
+    },
+    "rusticrevived:painted_wood_pink": {
+      "burn_time": 300
+    },
+    "rusticrevived:painted_wood_purple": {
+      "burn_time": 300
+    },
+    "rusticrevived:painted_wood_red": {
+      "burn_time": 300
+    },
+    "rusticrevived:painted_wood_white": {
+      "burn_time": 300
+    },
+    "rusticrevived:painted_wood_yellow": {
+      "burn_time": 300
+    },
+    "rusticrevived:table_acacia": {
+      "burn_time": 300
+    },
+    "rusticrevived:table_bamboo": {
+      "burn_time": 300
+    },
+    "rusticrevived:table_birch": {
+      "burn_time": 300
+    },
+    "rusticrevived:table_cherry": {
+      "burn_time": 300
+    },
+    "rusticrevived:table_dark_oak": {
+      "burn_time": 300
+    },
+    "rusticrevived:table_ironwood": {
+      "burn_time": 300
+    },
+    "rusticrevived:table_jungle": {
+      "burn_time": 300
+    },
+    "rusticrevived:table_mangrove": {
+      "burn_time": 300
+    },
+    "rusticrevived:table_oak": {
+      "burn_time": 300
+    },
+    "rusticrevived:table_olive": {
+      "burn_time": 300
+    },
+    "rusticrevived:table_spruce": {
+      "burn_time": 300
+    },
+    "rusticrevived:wildberry_bush": {
+      "burn_time": 200
+    }
+  }
+}

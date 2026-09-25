@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "rusticrevived:block/candle_wall",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "rusticrevived:block/candle_wall"
+    },
+    "facing=south": {
+      "model": "rusticrevived:block/candle_wall",
+      "y": 180
+    },
+    "facing=up": {
+      "model": "rusticrevived:block/candle"
+    },
+    "facing=west": {
+      "model": "rusticrevived:block/candle_wall",
+      "y": 270
+    }
+  }
+}

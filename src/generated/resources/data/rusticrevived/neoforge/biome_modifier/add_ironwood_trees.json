@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#rusticrevived:has_feature/ironwood_trees",
+  "features": "rusticrevived:ironwood_trees",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "facing=east,powered=false": {
+      "model": "rusticrevived:block/candle_wall_gold",
+      "y": 90
+    },
+    "facing=east,powered=true": {
+      "model": "rusticrevived:block/candle_wall_pulled_gold",
+      "y": 90
+    },
+    "facing=north,powered=false": {
+      "model": "rusticrevived:block/candle_wall_gold"
+    },
+    "facing=north,powered=true": {
+      "model": "rusticrevived:block/candle_wall_pulled_gold"
+    },
+    "facing=south,powered=false": {
+      "model": "rusticrevived:block/candle_wall_gold",
+      "y": 180
+    },
+    "facing=south,powered=true": {
+      "model": "rusticrevived:block/candle_wall_pulled_gold",
+      "y": 180
+    },
+    "facing=up,powered=false": {
+      "model": "rusticrevived:block/candle_gold"
+    },
+    "facing=up,powered=true": {
+      "model": "rusticrevived:block/candle_pulled_gold"
+    },
+    "facing=west,powered=false": {
+      "model": "rusticrevived:block/candle_wall_gold",
+      "y": 270
+    },
+    "facing=west,powered=true": {
+      "model": "rusticrevived:block/candle_wall_pulled_gold",
+      "y": 270
+    }
+  }
+}

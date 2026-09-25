@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": {
+      "type": "dynamictrees:branch",
+      "family": "rusticrevived:olive",
+      "textures": {
+        "bark": "rusticrevived:block/log_olive",
+        "rings": "rusticrevived:block/log_olive_top"
+      }
+    }
+  }
+}

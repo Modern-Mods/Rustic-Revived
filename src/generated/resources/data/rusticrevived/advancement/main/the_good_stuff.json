@@ -1,0 +1,38 @@
+{
+  "parent": "rusticrevived:main/root",
+  "criteria": {
+    "has_quality_beverage": {
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "rusticrevived:booze": {
+                "quality": {
+                  "min": 0.8999
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.rusticrevived.the_good_stuff.desc"
+    },
+    "icon": {
+      "id": "rusticrevived:brewing_barrel"
+    },
+    "title": {
+      "translate": "advancements.rusticrevived.the_good_stuff"
+    }
+  },
+  "requirements": [
+    [
+      "has_quality_beverage"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

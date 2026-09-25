@@ -1,0 +1,28 @@
+{
+  "type": "rusticrevived:condenser",
+  "advanced": true,
+  "bottle": "minecraft:glass_bottle",
+  "fluid": {
+    "amount": 125,
+    "ingredient": "minecraft:water"
+  },
+  "ingredients": [
+    "rusticrevived:ironberries",
+    "minecraft:leather",
+    "minecraft:clay_ball"
+  ],
+  "result": {
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "duration": 3600,
+            "id": "rusticrevived:iron_skin",
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "id": "rusticrevived:elixir"
+  }
+}

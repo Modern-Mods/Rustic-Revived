@@ -1,0 +1,6 @@
+{
+  "parent": "rusticrevived:block/table_template",
+  "textures": {
+    "planks": "minecraft:block/bamboo_planks"
+  }
+}

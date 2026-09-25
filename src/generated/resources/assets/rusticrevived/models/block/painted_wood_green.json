@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "rusticrevived:block/painted_wood_green"
+  }
+}

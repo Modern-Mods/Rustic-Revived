@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "dynamictrees"
+    }
+  ],
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "dynamictrees:voluntary_seed_drop_chance",
+              "rarity": 1.0
+            }
+          ],
+          "name": "rusticrevived:olive_seed"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "rusticrevived:trees/voluntary/olive"
+}

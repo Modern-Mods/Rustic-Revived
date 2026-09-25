@@ -1,0 +1,11 @@
+{
+  "type": "rusticrevived:crushing_tub",
+  "byproduct": {
+    "id": "rusticrevived:apple_seeds"
+  },
+  "ingredient": "minecraft:apple",
+  "result": {
+    "amount": 250,
+    "id": "rusticrevived:apple_juice"
+  }
+}

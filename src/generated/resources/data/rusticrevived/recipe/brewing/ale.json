@@ -1,0 +1,8 @@
+{
+  "type": "rusticrevived:brewing",
+  "input": "rusticrevived:ale_wort",
+  "result": {
+    "amount": 1,
+    "id": "rusticrevived:ale"
+  }
+}

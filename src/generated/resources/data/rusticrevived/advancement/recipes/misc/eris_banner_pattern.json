@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_almanac": {
+      "conditions": {
+        "items": [
+          {
+            "items": "rusticrevived:almanac"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "rusticrevived:eris_banner_pattern"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_almanac"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rusticrevived:eris_banner_pattern"
+    ]
+  }
+}

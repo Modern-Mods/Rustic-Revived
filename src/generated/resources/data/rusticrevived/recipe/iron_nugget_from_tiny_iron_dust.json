@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.15,
+  "ingredient": "rusticrevived:tiny_iron_dust",
+  "result": {
+    "id": "minecraft:iron_nugget"
+  }
+}

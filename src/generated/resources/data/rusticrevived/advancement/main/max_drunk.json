@@ -1,0 +1,43 @@
+{
+  "parent": "rusticrevived:main/root",
+  "criteria": {
+    "has_max_inebriation": {
+      "conditions": {
+        "effects": {
+          "rusticrevived:tipsy": {
+            "ambient": false,
+            "amplifier": 3
+          }
+        }
+      },
+      "trigger": "minecraft:effects_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.rusticrevived.max_drunk.desc"
+    },
+    "frame": "goal",
+    "icon": {
+      "components": {
+        "rusticrevived:fluid": {
+          "amount": 250,
+          "components": {
+            "rusticrevived:booze_quality": 1.0
+          },
+          "id": "rusticrevived:ale"
+        }
+      },
+      "id": "rusticrevived:fluid_bottle"
+    },
+    "title": {
+      "translate": "advancements.rusticrevived.max_drunk"
+    }
+  },
+  "requirements": [
+    [
+      "has_max_inebriation"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

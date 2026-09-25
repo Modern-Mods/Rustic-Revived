@@ -1,0 +1,23 @@
+{
+  "values": [
+    "rusticrevived:tomato_crop",
+    "rusticrevived:chili_crop",
+    "rusticrevived:grape_stem",
+    "rusticrevived:grape_leaves",
+    "rusticrevived:wildberry_bush",
+    "rusticrevived:apple_leaves",
+    "rusticrevived:apple_seeds",
+    "#rusticrevived:herbs",
+    "#minecraft:crops",
+    "#minecraft:saplings",
+    "minecraft:cactus",
+    "minecraft:sugar_cane",
+    "minecraft:nether_wart",
+    "minecraft:cocoa",
+    "minecraft:sweet_berry_bush",
+    "minecraft:bamboo",
+    "minecraft:bamboo_sapling",
+    "minecraft:melon_stem",
+    "minecraft:pumpkin_stem"
+  ]
+}

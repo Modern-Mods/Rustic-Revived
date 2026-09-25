@@ -1,0 +1,9 @@
+{
+	"parent": "rusticrevived:block/chandelier",
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"chandelier": "rusticrevived:block/chandelier_gold",
+		"chain": "rusticrevived:block/chain_gold",
+		"particle": "rusticrevived:block/chandelier_gold"
+	}
+}

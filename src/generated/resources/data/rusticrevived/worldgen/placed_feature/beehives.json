@@ -1,0 +1,29 @@
+{
+  "feature": "rusticrevived:beehive",
+  "placement": [
+    {
+      "type": "rusticrevived:config_chance",
+      "option": "beehiveGenChance"
+    },
+    {
+      "type": "rusticrevived:config_count",
+      "option": "maxBeehiveAttempts"
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 15,
+        "min_inclusive": 1
+      },
+      "y_spread": 0
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

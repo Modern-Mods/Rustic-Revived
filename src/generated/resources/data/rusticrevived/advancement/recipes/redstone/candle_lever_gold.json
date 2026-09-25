@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_candle_gold": {
+      "conditions": {
+        "items": [
+          {
+            "items": "rusticrevived:candle_gold"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "rusticrevived:candle_lever_gold"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_candle_gold"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rusticrevived:candle_lever_gold"
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "block_state_property": "variant",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rusticrevived:vases/vase_1"
+        },
+        "when": "1"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rusticrevived:vases/vase_2"
+        },
+        "when": "2"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rusticrevived:vases/vase_3"
+        },
+        "when": "3"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rusticrevived:vases/vase_4"
+        },
+        "when": "4"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rusticrevived:vases/vase_5"
+        },
+        "when": "5"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rusticrevived:vases/vase_6"
+        },
+        "when": "6"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rusticrevived:vases/vase_7"
+        },
+        "when": "7"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rusticrevived:vases/vase_8"
+        },
+        "when": "8"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rusticrevived:vases/vase_9"
+        },
+        "when": "9"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rusticrevived:vases/vase_10"
+        },
+        "when": "10"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rusticrevived:vases/vase_11"
+        },
+        "when": "11"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rusticrevived:vases/vase_12"
+        },
+        "when": "12"
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "rusticrevived:vases/vase_0"
+    },
+    "property": "minecraft:block_state"
+  }
+}

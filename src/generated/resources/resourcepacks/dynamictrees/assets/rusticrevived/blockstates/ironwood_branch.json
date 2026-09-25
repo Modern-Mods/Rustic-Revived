@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": {
+      "type": "dynamictrees:branch",
+      "family": "rusticrevived:ironwood",
+      "textures": {
+        "bark": "rusticrevived:block/log_ironwood",
+        "rings": "rusticrevived:block/log_ironwood_top"
+      }
+    }
+  }
+}

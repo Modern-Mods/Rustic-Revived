@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "rusticrevived:config",
+      "option": "enableSlate"
+    }
+  ],
+  "type": "minecraft:stonecutting",
+  "ingredient": "rusticrevived:slate",
+  "result": {
+    "id": "rusticrevived:slate_chiseled"
+  }
+}

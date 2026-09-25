@@ -1,0 +1,36 @@
+{
+  "feature": "rusticrevived:jungle_herbs",
+  "placement": [
+    {
+      "type": "rusticrevived:config_chance",
+      "option": "herbGenChance"
+    },
+    {
+      "type": "rusticrevived:config_count",
+      "option": "maxHerbAttempts"
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 14,
+        "min_inclusive": 2
+      },
+      "y_spread": 0
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_block_tag",
+        "tag": "minecraft:air"
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "rusticrevived:block/vase_1",
+  "textures": {
+    "bottom": "rusticrevived:block/vases/vase_bottom_12",
+    "side": "rusticrevived:block/vases/vase_side_12",
+    "top": "rusticrevived:block/vases/vase_top_12"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "rusticrevived:block/chain"
+      },
+      "when": {
+        "axis": "y"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/chain_horizontal"
+      },
+      "when": {
+        "axis": "z"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/chain_horizontal",
+        "y": 90
+      },
+      "when": {
+        "axis": "x"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/chain_dangle"
+      },
+      "when": {
+        "axis": "z",
+        "dangle": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/chain_dangle",
+        "y": 90
+      },
+      "when": {
+        "axis": "x",
+        "dangle": "true"
+      }
+    }
+  ]
+}

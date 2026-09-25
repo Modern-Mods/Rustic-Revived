@@ -1,0 +1,10 @@
+{
+  "type": "rusticrevived:shapeless_no_remainder",
+  "category": "misc",
+  "ingredients": [
+    "rusticrevived:liquid_barrel"
+  ],
+  "result": {
+    "id": "rusticrevived:liquid_barrel"
+  }
+}

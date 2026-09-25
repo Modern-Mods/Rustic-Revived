@@ -1,0 +1,18 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "rusticrevived:block/liquid_barrel"
+      },
+      {
+        "type": "minecraft:special",
+        "base": "rusticrevived:block/liquid_barrel",
+        "model": {
+          "type": "rusticrevived:liquid_barrel"
+        }
+      }
+    ]
+  }
+}

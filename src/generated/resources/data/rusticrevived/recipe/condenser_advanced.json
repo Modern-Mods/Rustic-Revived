@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "rusticrevived:condenser",
+  "key": {
+    "B": "minecraft:nether_brick",
+    "E": "minecraft:bucket",
+    "I": "minecraft:iron_block"
+  },
+  "pattern": [
+    " B ",
+    "BEB",
+    "BIB"
+  ],
+  "result": {
+    "id": "rusticrevived:condenser_advanced"
+  }
+}

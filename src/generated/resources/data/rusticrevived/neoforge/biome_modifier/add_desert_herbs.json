@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#rusticrevived:has_feature/desert_herbs",
+  "features": "rusticrevived:desert_herbs",
+  "step": "vegetal_decoration"
+}

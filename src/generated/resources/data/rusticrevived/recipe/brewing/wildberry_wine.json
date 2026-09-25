@@ -1,0 +1,8 @@
+{
+  "type": "rusticrevived:brewing",
+  "input": "rusticrevived:wildberry_juice",
+  "result": {
+    "amount": 1,
+    "id": "rusticrevived:wildberry_wine"
+  }
+}

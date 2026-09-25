@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#rusticrevived:has_feature/mountain_herbs",
+  "features": "rusticrevived:mountain_herbs",
+  "step": "vegetal_decoration"
+}

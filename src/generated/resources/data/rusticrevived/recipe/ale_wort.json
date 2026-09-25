@@ -1,0 +1,12 @@
+{
+  "type": "rusticrevived:shapeless_no_remainder",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:bread",
+    "minecraft:sugar",
+    "minecraft:water_bucket"
+  ],
+  "result": {
+    "id": "rusticrevived:ale_wort_bucket"
+  }
+}

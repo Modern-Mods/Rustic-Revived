@@ -1,0 +1,30 @@
+{
+  "type": "rusticrevived:condenser",
+  "advanced": true,
+  "bottle": "minecraft:glass_bottle",
+  "fluid": {
+    "amount": 125,
+    "ingredient": "minecraft:water"
+  },
+  "ingredients": [
+    "rusticrevived:ginseng",
+    "minecraft:bone",
+    "minecraft:gunpowder"
+  ],
+  "modifier": "rusticrevived:marsh_mallow",
+  "result": {
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "amplifier": 1,
+            "duration": 1800,
+            "id": "minecraft:strength",
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "id": "rusticrevived:elixir"
+  }
+}

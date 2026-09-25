@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "rusticrevived:config",
+      "option": "enablePaintedWood"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "rusticrevived:painted_wood",
+  "key": {
+    "D": "#c:dyes/green",
+    "P": "#minecraft:planks"
+  },
+  "pattern": [
+    "PPP",
+    "PDP",
+    "PPP"
+  ],
+  "result": {
+    "count": 8,
+    "id": "rusticrevived:painted_wood_green"
+  }
+}

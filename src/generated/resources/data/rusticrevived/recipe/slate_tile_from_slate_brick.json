@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "rusticrevived:config",
+      "option": "enableSlate"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": "rusticrevived:slate_brick"
+  },
+  "pattern": [
+    "S"
+  ],
+  "result": {
+    "id": "rusticrevived:slate_tile"
+  }
+}

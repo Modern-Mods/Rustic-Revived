@@ -1,0 +1,9 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "rusticrevived:item/cabinet",
+    "model": {
+      "type": "rusticrevived:cabinet"
+    }
+  }
+}

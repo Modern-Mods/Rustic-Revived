@@ -1,0 +1,8 @@
+{
+  "type": "rusticrevived:crushing_tub",
+  "ingredient": "rusticrevived:ironberries",
+  "result": {
+    "amount": 250,
+    "id": "rusticrevived:ironberry_juice"
+  }
+}

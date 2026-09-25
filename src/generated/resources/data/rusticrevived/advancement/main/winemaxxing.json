@@ -1,0 +1,49 @@
+{
+  "parent": "rusticrevived:main/the_good_stuff",
+  "criteria": {
+    "has_max_quality_wine": {
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "rusticrevived:booze": {
+                "fluid": "rusticrevived:wine",
+                "quality": {
+                  "min": 0.999
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.rusticrevived.winemaxxing.desc"
+    },
+    "frame": "challenge",
+    "icon": {
+      "components": {
+        "rusticrevived:fluid": {
+          "amount": 250,
+          "components": {
+            "rusticrevived:booze_quality": 1.0
+          },
+          "id": "rusticrevived:wine"
+        }
+      },
+      "id": "rusticrevived:fluid_bottle"
+    },
+    "title": {
+      "translate": "advancements.rusticrevived.winemaxxing"
+    }
+  },
+  "requirements": [
+    [
+      "has_max_quality_wine"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rusticrevived:block/ironwood_slab"
+    },
+    "type=double": {
+      "model": "rusticrevived:block/ironwood_planks"
+    },
+    "type=top": {
+      "model": "rusticrevived:block/ironwood_slab_top"
+    }
+  }
+}

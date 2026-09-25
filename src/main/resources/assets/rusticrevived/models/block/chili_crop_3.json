@@ -1,0 +1,6 @@
+{
+  "parent": "rusticrevived:block/stake_crop",
+  "textures": {
+    "crop": "rusticrevived:block/chili_crop_3"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "feature": "rusticrevived:slate",
+  "placement": [
+    {
+      "type": "rusticrevived:config_filter",
+      "option": "enableSlate"
+    },
+    {
+      "type": "rusticrevived:config_filter",
+      "expected": false,
+      "option": "netherSlate"
+    },
+    {
+      "type": "rusticrevived:config_count",
+      "option": "slateVeinsPerChunk"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "absolute": 83
+        },
+        "min_inclusive": {
+          "absolute": 4
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

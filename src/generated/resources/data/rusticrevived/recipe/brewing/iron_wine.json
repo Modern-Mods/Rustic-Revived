@@ -1,0 +1,8 @@
+{
+  "type": "rusticrevived:brewing",
+  "input": "rusticrevived:ironberry_juice",
+  "result": {
+    "amount": 1,
+    "id": "rusticrevived:iron_wine"
+  }
+}

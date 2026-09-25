@@ -1,0 +1,34 @@
+[
+  {
+    "_comment": "legacy BiomeDataBasePopulator: olive trees are spliced before the biome's own trees",
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 985,
+          "rusticrevived:olive": 15
+        }
+      }
+    },
+    "select": {
+      "name": ".*",
+      "tag": "#rusticrevived:has_feature/olive_trees"
+    }
+  },
+  {
+    "_comment": "legacy BiomeDataBasePopulator: ironwood trees are spliced before the biome's own trees",
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 993,
+          "rusticrevived:ironwood": 7
+        }
+      }
+    },
+    "select": {
+      "name": ".*",
+      "tag": "#rusticrevived:has_feature/ironwood_trees"
+    }
+  }
+]

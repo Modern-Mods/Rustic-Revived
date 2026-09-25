@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#rusticrevived:has_feature/cave_herbs",
+  "features": "rusticrevived:cave_herbs",
+  "step": "underground_decoration"
+}

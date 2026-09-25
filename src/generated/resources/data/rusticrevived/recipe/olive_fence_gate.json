@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "wooden_fence_gate",
+  "key": {
+    "P": "rusticrevived:olive_planks",
+    "S": "#c:rods/wooden"
+  },
+  "pattern": [
+    "SPS",
+    "SPS"
+  ],
+  "result": {
+    "id": "rusticrevived:olive_fence_gate"
+  }
+}

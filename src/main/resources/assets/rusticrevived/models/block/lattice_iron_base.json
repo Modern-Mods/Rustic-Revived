@@ -1,0 +1,41 @@
+{
+	"__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"0": "rusticrevived:block/iron_lattice",
+		"particle": "rusticrevived:block/iron_lattice"
+	},
+	"elements": [
+		{
+			"name": "Cube",
+			"from": [7, 7, 7],
+			"to": [9, 9, 9],
+			"faces": {
+				"north": {
+					"texture": "#0",
+					"uv": [7, 7, 9, 9]
+				},
+				"east": {
+					"texture": "#0",
+					"uv": [7, 7, 9, 9]
+				},
+				"south": {
+					"texture": "#0",
+					"uv": [7, 7, 9, 9]
+				},
+				"west": {
+					"texture": "#0",
+					"uv": [7, 7, 9, 9]
+				},
+				"up": {
+					"texture": "#0",
+					"uv": [7, 7, 9, 9]
+				},
+				"down": {
+					"texture": "#0",
+					"uv": [7, 7, 9, 9]
+				}
+			}
+		}
+	]
+}

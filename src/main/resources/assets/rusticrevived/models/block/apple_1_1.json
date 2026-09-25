@@ -1,0 +1,78 @@
+{
+  "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+  "textures": {
+    "0": "rusticrevived:block/apple",
+    "particle": "rusticrevived:block/apple"
+  },
+  "elements": [
+    {
+      "name": "Cube",
+      "from": [
+        9,
+        9,
+        4
+      ],
+      "to": [
+        13,
+        14,
+        8
+      ],
+      "faces": {
+        "north": {
+          "texture": "#0",
+          "uv": [
+            0,
+            6,
+            4,
+            11
+          ]
+        },
+        "east": {
+          "texture": "#0",
+          "uv": [
+            0,
+            6,
+            4,
+            11
+          ]
+        },
+        "south": {
+          "texture": "#0",
+          "uv": [
+            0,
+            6,
+            4,
+            11
+          ]
+        },
+        "west": {
+          "texture": "#0",
+          "uv": [
+            0,
+            6,
+            4,
+            11
+          ]
+        },
+        "up": {
+          "texture": "#0",
+          "uv": [
+            4,
+            6,
+            8,
+            10
+          ]
+        },
+        "down": {
+          "texture": "#0",
+          "uv": [
+            4,
+            6,
+            8,
+            10
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "values": {
+    "#rusticrevived:herbs": {
+      "chance": 0.65
+    },
+    "rusticrevived:apple_leaves": {
+      "chance": 0.3
+    },
+    "rusticrevived:apple_sapling": {
+      "chance": 0.3
+    },
+    "rusticrevived:apple_seeds": {
+      "chance": 0.3
+    },
+    "rusticrevived:chili_pepper": {
+      "chance": 0.65
+    },
+    "rusticrevived:chili_pepper_seeds": {
+      "chance": 0.3
+    },
+    "rusticrevived:ghost_pepper": {
+      "chance": 0.65
+    },
+    "rusticrevived:grape_stem": {
+      "chance": 0.3
+    },
+    "rusticrevived:grapes": {
+      "chance": 0.3
+    },
+    "rusticrevived:ironberries": {
+      "chance": 0.3
+    },
+    "rusticrevived:ironwood_leaves": {
+      "chance": 0.3
+    },
+    "rusticrevived:ironwood_sapling": {
+      "chance": 0.3
+    },
+    "rusticrevived:olive_leaves": {
+      "chance": 0.3
+    },
+    "rusticrevived:olive_sapling": {
+      "chance": 0.3
+    },
+    "rusticrevived:olives": {
+      "chance": 0.3
+    },
+    "rusticrevived:tomato": {
+      "chance": 0.65
+    },
+    "rusticrevived:tomato_seeds": {
+      "chance": 0.3
+    },
+    "rusticrevived:wildberries": {
+      "chance": 0.3
+    },
+    "rusticrevived:wildberry_bush": {
+      "chance": 0.65
+    }
+  }
+}

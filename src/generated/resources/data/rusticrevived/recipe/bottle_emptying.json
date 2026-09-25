@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "rusticrevived:config",
+      "option": "enableBottleEmptying"
+    }
+  ],
+  "type": "rusticrevived:shapeless_no_remainder",
+  "category": "misc",
+  "ingredients": [
+    "rusticrevived:fluid_bottle"
+  ],
+  "result": {
+    "id": "minecraft:glass_bottle"
+  }
+}

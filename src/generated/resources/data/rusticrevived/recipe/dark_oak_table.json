@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "rusticrevived:config",
+      "option": "enableTables"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "rusticrevived:table",
+  "key": {
+    "P": "minecraft:dark_oak_planks",
+    "S": "#c:rods/wooden"
+  },
+  "pattern": [
+    "PPP",
+    "S S"
+  ],
+  "result": {
+    "count": 2,
+    "id": "rusticrevived:table_dark_oak"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#rusticrevived:has_feature/wildberries",
+  "features": "rusticrevived:wildberries",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:paper",
+    "rusticrevived:almanac"
+  ],
+  "result": {
+    "id": "rusticrevived:eris_banner_pattern"
+  }
+}

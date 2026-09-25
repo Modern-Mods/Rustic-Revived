@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "rusticrevived:config",
+      "option": "fleshSmelting"
+    }
+  ],
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.3,
+  "ingredient": "minecraft:rotten_flesh",
+  "result": {
+    "id": "rusticrevived:tallow"
+  }
+}

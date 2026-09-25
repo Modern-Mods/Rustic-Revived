@@ -1,0 +1,191 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "neoforge:fluid_container",
+              "fluid": "rusticrevived:ale",
+              "textures": {
+                "base": "rusticrevived:item/alcohol_bottle",
+                "fluid": "rusticrevived:item/alcohol_overlay"
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "rusticrevived:item/alcohol_label",
+              "tints": [
+                {
+                  "type": "rusticrevived:booze_label"
+                }
+              ]
+            }
+          ]
+        },
+        "when": "rusticrevived:ale"
+      },
+      {
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "neoforge:fluid_container",
+              "fluid": "rusticrevived:cider",
+              "textures": {
+                "base": "rusticrevived:item/alcohol_bottle",
+                "fluid": "rusticrevived:item/alcohol_overlay"
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "rusticrevived:item/alcohol_label",
+              "tints": [
+                {
+                  "type": "rusticrevived:booze_label"
+                }
+              ]
+            }
+          ]
+        },
+        "when": "rusticrevived:cider"
+      },
+      {
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "neoforge:fluid_container",
+              "fluid": "rusticrevived:iron_wine",
+              "textures": {
+                "base": "rusticrevived:item/alcohol_bottle",
+                "fluid": "rusticrevived:item/alcohol_overlay"
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "rusticrevived:item/alcohol_label",
+              "tints": [
+                {
+                  "type": "rusticrevived:booze_label"
+                }
+              ]
+            }
+          ]
+        },
+        "when": "rusticrevived:iron_wine"
+      },
+      {
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "neoforge:fluid_container",
+              "fluid": "rusticrevived:mead",
+              "textures": {
+                "base": "rusticrevived:item/alcohol_bottle",
+                "fluid": "rusticrevived:item/alcohol_overlay"
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "rusticrevived:item/alcohol_label",
+              "tints": [
+                {
+                  "type": "rusticrevived:booze_label"
+                }
+              ]
+            }
+          ]
+        },
+        "when": "rusticrevived:mead"
+      },
+      {
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "neoforge:fluid_container",
+              "fluid": "rusticrevived:wildberry_wine",
+              "textures": {
+                "base": "rusticrevived:item/alcohol_bottle",
+                "fluid": "rusticrevived:item/alcohol_overlay"
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "rusticrevived:item/alcohol_label",
+              "tints": [
+                {
+                  "type": "rusticrevived:booze_label"
+                }
+              ]
+            }
+          ]
+        },
+        "when": "rusticrevived:wildberry_wine"
+      },
+      {
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "neoforge:fluid_container",
+              "fluid": "rusticrevived:wine",
+              "textures": {
+                "base": "rusticrevived:item/alcohol_bottle",
+                "fluid": "rusticrevived:item/alcohol_overlay"
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "rusticrevived:item/alcohol_label",
+              "tints": [
+                {
+                  "type": "rusticrevived:booze_label"
+                }
+              ]
+            }
+          ]
+        },
+        "when": "rusticrevived:wine"
+      },
+      {
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "neoforge:fluid_container",
+              "fluid": "rusticrevived:ambrosia",
+              "textures": {
+                "base": "rusticrevived:item/alcohol_bottle",
+                "fluid": "rusticrevived:item/alcohol_overlay"
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "rusticrevived:item/alcohol_label",
+              "tints": [
+                {
+                  "type": "rusticrevived:booze_label"
+                }
+              ]
+            }
+          ]
+        },
+        "when": "rusticrevived:ambrosia"
+      }
+    ],
+    "fallback": {
+      "type": "neoforge:fluid_container",
+      "fluid": "minecraft:empty",
+      "textures": {
+        "base": "minecraft:item/potion",
+        "fluid": "minecraft:item/potion_overlay"
+      }
+    },
+    "property": "rusticrevived:bottle_fluid"
+  }
+}

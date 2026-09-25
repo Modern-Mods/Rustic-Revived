@@ -1,0 +1,10 @@
+{
+  "type": "rusticrevived:evaporating_basin",
+  "fluid": {
+    "amount": 500,
+    "ingredient": "rusticrevived:ironberry_juice"
+  },
+  "result": {
+    "id": "rusticrevived:tiny_iron_dust"
+  }
+}

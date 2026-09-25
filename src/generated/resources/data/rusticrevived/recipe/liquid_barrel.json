@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": "#c:ingots/iron",
+    "P": "#minecraft:planks",
+    "S": "#minecraft:wooden_slabs"
+  },
+  "pattern": [
+    "P P",
+    "I I",
+    "PSP"
+  ],
+  "result": {
+    "count": 2,
+    "id": "rusticrevived:liquid_barrel"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "rusticrevived:main/root",
+  "criteria": {
+    "has_almanac": {
+      "conditions": {
+        "items": [
+          {
+            "items": "rusticrevived:almanac"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.rusticrevived.almanac.desc"
+    },
+    "icon": {
+      "id": "rusticrevived:almanac"
+    },
+    "title": {
+      "translate": "advancements.rusticrevived.almanac"
+    }
+  },
+  "requirements": [
+    [
+      "has_almanac"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

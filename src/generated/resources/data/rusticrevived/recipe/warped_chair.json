@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "rusticrevived:config",
+      "option": "enableChairs"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "rusticrevived:chair",
+  "key": {
+    "P": "minecraft:warped_planks",
+    "S": "#c:rods/wooden"
+  },
+  "pattern": [
+    "P  ",
+    "PPP",
+    "S S"
+  ],
+  "result": {
+    "count": 4,
+    "id": "rusticrevived:chair_warped"
+  }
+}

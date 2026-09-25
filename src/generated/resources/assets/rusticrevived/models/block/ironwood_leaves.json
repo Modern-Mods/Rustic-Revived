@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "rusticrevived:block/leaves_ironwood"
+  }
+}

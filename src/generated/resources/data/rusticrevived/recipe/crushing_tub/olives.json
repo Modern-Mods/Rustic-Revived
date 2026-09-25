@@ -1,0 +1,8 @@
+{
+  "type": "rusticrevived:crushing_tub",
+  "ingredient": "rusticrevived:olives",
+  "result": {
+    "amount": 250,
+    "id": "rusticrevived:olive_oil"
+  }
+}

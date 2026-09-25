@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:bone_meal",
+    "minecraft:dirt"
+  ],
+  "result": {
+    "id": "rusticrevived:fertile_soil"
+  }
+}

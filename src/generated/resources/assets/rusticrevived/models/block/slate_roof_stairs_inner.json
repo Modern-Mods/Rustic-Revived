@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "rusticrevived:block/slate_roof",
+    "side": "rusticrevived:block/slate_roof",
+    "top": "rusticrevived:block/slate_roof"
+  }
+}

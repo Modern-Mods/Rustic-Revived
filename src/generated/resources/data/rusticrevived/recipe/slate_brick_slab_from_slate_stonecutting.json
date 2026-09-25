@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "rusticrevived:config",
+      "option": "enableSlate"
+    }
+  ],
+  "type": "minecraft:stonecutting",
+  "ingredient": "rusticrevived:slate",
+  "result": {
+    "count": 2,
+    "id": "rusticrevived:slate_brick_slab"
+  }
+}

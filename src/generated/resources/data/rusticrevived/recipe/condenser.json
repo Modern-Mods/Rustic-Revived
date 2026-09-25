@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "rusticrevived:condenser",
+  "key": {
+    "B": "minecraft:brick",
+    "C": "minecraft:white_terracotta",
+    "E": "minecraft:bucket"
+  },
+  "pattern": [
+    " B ",
+    "BEB",
+    "BCB"
+  ],
+  "result": {
+    "id": "rusticrevived:condenser"
+  }
+}

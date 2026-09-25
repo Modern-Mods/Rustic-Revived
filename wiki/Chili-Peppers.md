@@ -1,0 +1,5 @@
+Chili Peppers are the fruit of chili pepper plants, which can be grown on [crop stakes](Crop-Stakes.md). Chili Pepper seeds can be found by breaking tall grass, and can be planted by right-clicking on a crop stake with the seeds in hand. The seeds can only be planted on crop stakes that are above farmland or [fertile soil](Fertile-Soil.md). When mature, chili pepper plants produce chili peppers. When the plant has chili peppers, it can also grow upward onto crop stakes, but only up to a height of 2 blocks tall. Chili peppers can be harvested from mature plants by right-clicking or breaking the plant. It is better not to break the plant, as broken plants will need to regrow before bearing more chili peppers. Chili peppers can be eaten, but will deal a half heart of fire damage. They also give a short buff to the player's speed. Chili peppers can also be used in [alchemy](Alchemy.md) to make Elixers of Blazing Trail.
+
+![](http://i.imgur.com/nlZS1z7.png)
+## Ghost Peppers ##
+Rarely, when harvesting chili peppers, you might find a ghost pepper. When eaten, ghost peppers grant the Fire Power effect for a short time, causing your attacks to shoot fireballs.

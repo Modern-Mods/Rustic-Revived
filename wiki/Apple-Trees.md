@@ -1,0 +1,3 @@
+Apple Trees can be grown from apple saplings, which can be grown from apple seeds, which can be obtained by [crushing](Crushing-Tub.md) apples. Apple trees are made of oak logs and apple leaves. Apple leaves slowly grow apples inside of themselves if they are exposed to air on the bottom or any sides on the horizontal axis. Fully grown apples can be harvested from apple leaves by either right-clicking or breaking the leaf. It is better not to break leaves, as leaves will not regrow. Apple leaves drop apple saplings, as well as apples, so long as they contain fully grown apples when destroyed.
+
+![](http://i.imgur.com/dy89hVs.png)

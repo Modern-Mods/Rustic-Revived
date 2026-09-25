@@ -7,7 +7,9 @@ plugins {
     id 'net.neoforged.moddev' version '2.0.147'
 }
 
-version = "${minecraft_version}-${mod_version}-${tag_lanzador}"
+// CI uses the GitHub Actions run number (same as the release tag), local builds use build_number
+def buildNumber = System.getenv("GITHUB_RUN_NUMBER") ?: build_number
+version = "${minecraft_version}-${mod_version}-${tag_lanzador}-build.${buildNumber}"
 group = "${mod_group_id}"
 
 base {

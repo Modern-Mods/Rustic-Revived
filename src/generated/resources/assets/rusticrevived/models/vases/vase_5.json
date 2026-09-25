@@ -1,0 +1,9 @@
+{
+  "parent": "rusticrevived:block/vase_0",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "rusticrevived:block/vases/vase_bottom_5",
+    "side": "rusticrevived:block/vases/vase_side_5",
+    "top": "rusticrevived:block/vases/vase_top_5"
+  }
+}

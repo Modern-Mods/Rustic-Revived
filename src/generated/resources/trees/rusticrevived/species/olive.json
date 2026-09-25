@@ -1,0 +1,13 @@
+{
+  "climate_tolerance": 0.5,
+  "family": "rusticrevived:olive",
+  "growth_rate": 1.0,
+  "leaves_properties": "rusticrevived:olive",
+  "lowest_branch_height": 3,
+  "preferred_climate": "temperate",
+  "primitive_sapling": "rusticrevived:olive_sapling",
+  "sapling_name": "olive_dynamic_sapling",
+  "signal_energy": 12.0,
+  "tapering": 0.3,
+  "up_probability": 2
+}

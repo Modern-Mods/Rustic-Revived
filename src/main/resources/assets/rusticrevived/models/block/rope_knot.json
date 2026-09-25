@@ -1,0 +1,41 @@
+{
+	"__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"0": "rusticrevived:block/rope_knot",
+		"particle": "rusticrevived:block/rope_knot"
+	},
+	"elements": [
+		{
+			"name": "Cube",
+			"from": [6.500000007450581, 6.500000007450581, 6.500000007450581],
+			"to": [9.50000000745058, 9.50000000745058, 9.50000000745058],
+			"faces": {
+				"north": {
+					"texture": "#0",
+					"uv": [6, 0, 9, 3]
+				},
+				"east": {
+					"texture": "#0",
+					"uv": [6, 0, 9, 3]
+				},
+				"south": {
+					"texture": "#0",
+					"uv": [6, 0, 9, 3]
+				},
+				"west": {
+					"texture": "#0",
+					"uv": [6, 0, 9, 3]
+				},
+				"up": {
+					"texture": "#0",
+					"uv": [6, 0, 9, 3]
+				},
+				"down": {
+					"texture": "#0",
+					"uv": [6, 0, 9, 3]
+				}
+			}
+		}
+	]
+}

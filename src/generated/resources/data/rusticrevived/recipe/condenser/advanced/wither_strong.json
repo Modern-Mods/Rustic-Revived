@@ -1,0 +1,42 @@
+{
+  "type": "rusticrevived:condenser",
+  "advanced": true,
+  "bottle": {
+    "item": "minecraft:glass_bottle"
+  },
+  "fluid": {
+    "amount": 125,
+    "fluid": "minecraft:water"
+  },
+  "ingredients": [
+    {
+      "item": "rusticrevived:deathstalk_mushroom"
+    },
+    {
+      "item": "minecraft:soul_sand"
+    }
+  ],
+  "modifier": {
+    "item": "rusticrevived:marsh_mallow"
+  },
+  "result": {
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "amplifier": 1,
+            "duration": 450,
+            "id": "minecraft:wither",
+            "neoforge:cures": [
+              "milk",
+              "protected_by_totem"
+            ],
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "count": 1,
+    "id": "rusticrevived:elixir"
+  }
+}

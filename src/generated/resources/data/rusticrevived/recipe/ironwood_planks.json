@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "rusticrevived:ironwood_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "rusticrevived:ironwood_planks"
+  }
+}

@@ -1,0 +1,3 @@
+Chandelier Rings can be crafted with iron and [chain](https://github.com/the-realest-stu/Rustic/wiki/Chain). They are most useful for decoration, as torches and [candles](https://github.com/the-realest-stu/Rustic/wiki/Candles) can be placed on the sides of the block. For the best looking chandeliers, it is suggested that you hang the chandelier ring from a chain or [rope](https://github.com/the-realest-stu/Rustic/wiki/Rope).
+
+![](http://i.imgur.com/2LmZjmE.png)

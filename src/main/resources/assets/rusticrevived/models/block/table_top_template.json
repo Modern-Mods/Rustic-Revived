@@ -1,0 +1,39 @@
+{
+	"__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+	"textures": {
+		"particle": "#planks"
+	},
+	"elements": [
+		{
+			"name": "Cube",
+			"from": [0, 14, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {
+					"texture": "#planks",
+					"uv": [0, 0, 16, 2]
+				},
+				"east": {
+					"texture": "#planks",
+					"uv": [0, 0, 16, 2]
+				},
+				"south": {
+					"texture": "#planks",
+					"uv": [0, 0, 16, 2]
+				},
+				"west": {
+					"texture": "#planks",
+					"uv": [0, 0, 16, 2]
+				},
+				"up": {
+					"texture": "#planks",
+					"uv": [0, 0, 16, 16]
+				},
+				"down": {
+					"texture": "#planks",
+					"uv": [0, 0, 16, 16]
+				}
+			}
+		}
+	]
+}

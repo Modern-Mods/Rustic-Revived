@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "rusticrevived:block/log_ironwood_top",
+    "side": "rusticrevived:block/log_ironwood"
+  }
+}

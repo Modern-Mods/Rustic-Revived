@@ -1,0 +1,6 @@
+{
+  "parent": "rusticrevived:block/chair_template",
+  "textures": {
+    "planks": "rusticrevived:block/planks_ironwood"
+  }
+}

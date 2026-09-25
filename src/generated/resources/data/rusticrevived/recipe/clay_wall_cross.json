@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "rusticrevived:config",
+      "option": "enableClayWalls"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": {
+      "item": "rusticrevived:clay_wall"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "P P",
+    " C ",
+    "P P"
+  ],
+  "result": {
+    "count": 1,
+    "id": "rusticrevived:clay_wall_cross"
+  }
+}

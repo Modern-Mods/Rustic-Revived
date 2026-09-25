@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "rusticrevived:block/aloe_vera_seed"
+    },
+    "age=1": {
+      "model": "rusticrevived:block/aloe_vera_seed"
+    },
+    "age=2": {
+      "model": "rusticrevived:block/aloe_vera_seed"
+    },
+    "age=3": {
+      "model": "rusticrevived:block/aloe_vera"
+    }
+  }
+}

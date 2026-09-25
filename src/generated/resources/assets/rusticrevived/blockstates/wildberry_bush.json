@@ -1,0 +1,79 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "rusticrevived:block/wildberry_bush"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/wildberries_0"
+      },
+      "when": {
+        "age": "5"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/wildberries_0",
+        "y": 90
+      },
+      "when": {
+        "age": "5"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/wildberries_0",
+        "y": 180
+      },
+      "when": {
+        "age": "5"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/wildberries_0",
+        "y": 270
+      },
+      "when": {
+        "age": "5"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/wildberries_1"
+      },
+      "when": {
+        "age": "5"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/wildberries_1",
+        "y": 90
+      },
+      "when": {
+        "age": "5"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/wildberries_1",
+        "y": 180
+      },
+      "when": {
+        "age": "5"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/wildberries_1",
+        "y": 270
+      },
+      "when": {
+        "age": "5"
+      }
+    }
+  ]
+}

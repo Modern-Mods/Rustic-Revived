@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#rusticrevived:has_feature/beehives",
+  "features": "rusticrevived:beehives",
+  "step": "top_layer_modification"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#rusticrevived:has_feature/nether_herbs",
+  "features": "rusticrevived:nether_herbs",
+  "step": "underground_decoration"
+}

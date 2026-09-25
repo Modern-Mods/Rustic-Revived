@@ -1,0 +1,11 @@
+{
+  "parent": "neoforge:item/default",
+  "cover_is_mask": false,
+  "fluid": "rusticrevived:wildberry_wine",
+  "loader": "neoforge:fluid_container",
+  "textures": {
+    "base": "rusticrevived:item/alcohol_bottle",
+    "cover": "rusticrevived:item/alcohol_label",
+    "fluid": "rusticrevived:item/alcohol_overlay"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#rusticrevived:has_feature/olive_trees",
+  "features": "rusticrevived:olive_trees",
+  "step": "vegetal_decoration"
+}

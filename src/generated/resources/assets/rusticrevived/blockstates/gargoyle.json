@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "rusticrevived:block/gargoyle",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "rusticrevived:block/gargoyle",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "rusticrevived:block/gargoyle"
+    },
+    "facing=west": {
+      "model": "rusticrevived:block/gargoyle",
+      "y": 90
+    }
+  }
+}

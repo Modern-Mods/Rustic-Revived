@@ -1,0 +1,87 @@
+{
+  "render_type": "minecraft:cutout_mipped",
+  "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+  "textures": {
+    "0": "minecraft:block/oak_leaves",
+    "particle": "minecraft:block/oak_leaves"
+  },
+  "elements": [
+    {
+      "name": "Leaves",
+      "from": [
+        3,
+        3,
+        0
+      ],
+      "to": [
+        13,
+        13,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#0",
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ],
+          "cullface": "north",
+          "tintindex": 0
+        },
+        "east": {
+          "texture": "#0",
+          "uv": [
+            0,
+            3,
+            16,
+            13
+          ],
+          "tintindex": 0
+        },
+        "south": {
+          "texture": "#0",
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ],
+          "cullface": "south",
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#0",
+          "uv": [
+            0,
+            3,
+            16,
+            13
+          ],
+          "tintindex": 0
+        },
+        "up": {
+          "texture": "#0",
+          "uv": [
+            3,
+            0,
+            13,
+            16
+          ],
+          "tintindex": 0
+        },
+        "down": {
+          "texture": "#0",
+          "uv": [
+            3,
+            0,
+            13,
+            16
+          ],
+          "tintindex": 0
+        }
+      }
+    }
+  ]
+}

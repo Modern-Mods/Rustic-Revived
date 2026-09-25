@@ -1,0 +1,81 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "rusticrevived:block/grape_leaves_0"
+      },
+      "when": {
+        "distance": "0"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/grape_stem_top"
+      },
+      "when": {
+        "distance": "0"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/grapes"
+      },
+      "when": {
+        "grapes": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/grape_leaves_1",
+        "y": 90
+      },
+      "when": {
+        "axis": "x",
+        "distance": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/grape_vine",
+        "y": 90
+      },
+      "when": {
+        "axis": "x"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/rope_horizontal",
+        "y": 90
+      },
+      "when": {
+        "axis": "x"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/grape_leaves_1"
+      },
+      "when": {
+        "axis": "z",
+        "distance": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/grape_vine"
+      },
+      "when": {
+        "axis": "z"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/rope_horizontal"
+      },
+      "when": {
+        "axis": "z"
+      }
+    }
+  ]
+}

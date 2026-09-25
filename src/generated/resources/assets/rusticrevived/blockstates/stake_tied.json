@@ -1,0 +1,44 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "rusticrevived:block/stake_tied"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/rope_attachment_n"
+      },
+      "when": {
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/rope_attachment_n",
+        "y": 90
+      },
+      "when": {
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/rope_attachment_n",
+        "y": 180
+      },
+      "when": {
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/rope_attachment_n",
+        "y": 270
+      },
+      "when": {
+        "west": "true"
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "type": "rusticrevived:condenser",
+  "bottle": {
+    "item": "minecraft:glass_bottle"
+  },
+  "fluid": {
+    "amount": 125,
+    "fluid": "minecraft:water"
+  },
+  "ingredients": [
+    {
+      "item": "rusticrevived:mooncap_mushroom"
+    },
+    {
+      "item": "minecraft:spider_eye"
+    }
+  ],
+  "result": {
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "duration": 3600,
+            "id": "minecraft:night_vision",
+            "neoforge:cures": [
+              "milk",
+              "protected_by_totem"
+            ],
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "count": 1,
+    "id": "rusticrevived:elixir"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "rusticrevived:config",
+      "option": "enablePillars"
+    },
+    {
+      "type": "rusticrevived:config",
+      "option": "enableSlate"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": {
+      "item": "rusticrevived:slate"
+    }
+  },
+  "pattern": [
+    "SS",
+    "SS",
+    "SS"
+  ],
+  "result": {
+    "count": 6,
+    "id": "rusticrevived:slate_pillar"
+  }
+}

@@ -1,0 +1,3 @@
+Tables can be crafted with sticks wooden planks. The planks used in crafting affect the type of table you get. Tables can be made with any vanilla wood types, as well as [olive wood](https://github.com/the-realest-stu/Rustic/wiki/Olives) and [ironwood](https://github.com/the-realest-stu/Rustic/wiki/Ironberries). Their sole purpose is decoration. Tables connect to adjacent tables so that only the corners of connected tables have legs.
+
+![](http://i.imgur.com/Bxv7mX4.png)

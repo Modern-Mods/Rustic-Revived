@@ -1,0 +1,10 @@
+{
+  "type": "rusticrevived:brewing",
+  "input": {
+    "tag": "c:honey"
+  },
+  "result": {
+    "amount": 1,
+    "id": "rusticrevived:mead"
+  }
+}

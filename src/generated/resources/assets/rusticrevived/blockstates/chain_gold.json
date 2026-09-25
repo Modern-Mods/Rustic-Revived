@@ -1,0 +1,48 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "rusticrevived:block/chain_gold"
+      },
+      "when": {
+        "axis": "y"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/chain_horizontal_gold"
+      },
+      "when": {
+        "axis": "z"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/chain_horizontal_gold",
+        "y": 90
+      },
+      "when": {
+        "axis": "x"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/chain_dangle_gold"
+      },
+      "when": {
+        "axis": "z",
+        "dangle": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/chain_dangle_gold",
+        "y": 90
+      },
+      "when": {
+        "axis": "x",
+        "dangle": "true"
+      }
+    }
+  ]
+}

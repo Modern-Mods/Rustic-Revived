@@ -1,0 +1,62 @@
+{
+	"__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"chain": "rusticrevived:block/chain",
+		"particle": "rusticrevived:block/chain"
+	},
+	"elements": [
+		{
+			"name": "Cube",
+			"from": [7, 0, 8],
+			"to": [9, 16, 8],
+			"faces": {
+				"north": {
+					"texture": "#chain",
+					"uv": [7, 0, 9, 16]
+				},
+				"south": {
+					"texture": "#chain",
+					"uv": [7, 0, 9, 16]
+				}
+			}
+		},
+		{
+			"name": "Cube",
+			"from": [8, 0, 7],
+			"to": [8, 16, 9],
+			"faces": {
+				"east": {
+					"texture": "#chain",
+					"uv": [7, 0, 9, 16]
+				},
+				"west": {
+					"texture": "#chain",
+					"uv": [7, 0, 9, 16]
+				}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [0, 0, 0],
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"fixed": {
+			"rotation": [0, 0, 0],
+			"translation": [0, 0, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"translation": [0, 0, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"translation": [0, 0, 0],
+			"scale": [0.4, 0.4, 0.4]
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+  "type": "rusticrevived:condenser",
+  "advanced": true,
+  "bottle": {
+    "item": "minecraft:glass_bottle"
+  },
+  "fluid": {
+    "amount": 125,
+    "fluid": "minecraft:water"
+  },
+  "ingredients": [
+    {
+      "item": "rusticrevived:core_root"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "modifier": {
+    "item": "rusticrevived:horsetail"
+  },
+  "result": {
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "duration": 9600,
+            "id": "minecraft:haste",
+            "neoforge:cures": [
+              "milk",
+              "protected_by_totem"
+            ],
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "count": 1,
+    "id": "rusticrevived:elixir"
+  }
+}

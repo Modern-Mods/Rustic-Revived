@@ -1,0 +1,5 @@
+{
+  "parent": "neoforge:item/bucket",
+  "fluid": "rusticrevived:apple_juice",
+  "loader": "neoforge:fluid_container"
+}

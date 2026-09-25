@@ -1,0 +1,45 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "rusticrevived:config",
+      "option": "enableSilverDecor"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/silver"
+      }
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chain_silver": {
+      "conditions": {
+        "items": [
+          {
+            "items": "rusticrevived:chain_silver"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "rusticrevived:chandelier_silver"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_chain_silver"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rusticrevived:chandelier_silver"
+    ]
+  }
+}

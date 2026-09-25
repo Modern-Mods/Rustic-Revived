@@ -1,0 +1,16 @@
+version: 2
+updates:
+  # Actualiza las acciones del workflow (checkout, setup-java, setup-gradle...)
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    target-branch: "Neo/1.21.1"
+    schedule:
+      interval: "weekly"
+
+  # Actualiza dependencias y plugins de Gradle
+  - package-ecosystem: "gradle"
+    directory: "/"
+    target-branch: "Neo/1.21.1"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5

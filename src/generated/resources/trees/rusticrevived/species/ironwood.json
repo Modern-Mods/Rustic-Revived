@@ -1,0 +1,13 @@
+{
+  "climate_tolerance": 0.5,
+  "family": "rusticrevived:ironwood",
+  "growth_rate": 1.0,
+  "leaves_properties": "rusticrevived:ironwood",
+  "lowest_branch_height": 4,
+  "preferred_climate": "temperate",
+  "primitive_sapling": "rusticrevived:ironwood_sapling",
+  "sapling_name": "ironwood_dynamic_sapling",
+  "signal_energy": 14.0,
+  "tapering": 0.4,
+  "up_probability": 4
+}

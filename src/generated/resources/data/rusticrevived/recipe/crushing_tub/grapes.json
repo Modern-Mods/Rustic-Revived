@@ -1,0 +1,10 @@
+{
+  "type": "rusticrevived:crushing_tub",
+  "ingredient": {
+    "item": "rusticrevived:grapes"
+  },
+  "result": {
+    "amount": 250,
+    "id": "rusticrevived:grape_juice"
+  }
+}

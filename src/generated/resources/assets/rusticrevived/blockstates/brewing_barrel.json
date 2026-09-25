@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "rusticrevived:block/brewing_barrel",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "rusticrevived:block/brewing_barrel"
+    },
+    "facing=south": {
+      "model": "rusticrevived:block/brewing_barrel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rusticrevived:block/brewing_barrel",
+      "y": 270
+    }
+  }
+}

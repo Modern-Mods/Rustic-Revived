@@ -1,0 +1,49 @@
+{
+  "feature": "rusticrevived:olive_tree",
+  "placement": [
+    {
+      "type": "rusticrevived:config_filter",
+      "option": "staticTrees"
+    },
+    {
+      "type": "rusticrevived:config_chance",
+      "option": "oliveGenChance"
+    },
+    {
+      "type": "rusticrevived:config_count",
+      "option": "maxOliveGenAttempts"
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 13,
+        "min_inclusive": 3
+      },
+      "y_spread": 0
+    },
+    {
+      "type": "minecraft:surface_water_depth_filter",
+      "max_water_depth": 0
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": {
+          "Name": "rusticrevived:olive_sapling",
+          "Properties": {
+            "stage": "0"
+          }
+        }
+      }
+    }
+  ]
+}

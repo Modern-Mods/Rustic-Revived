@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "rusticrevived:config",
+      "option": "enableSlate"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": {
+      "item": "rusticrevived:slate_roof"
+    }
+  },
+  "pattern": [
+    "S  ",
+    "SS ",
+    "SSS"
+  ],
+  "result": {
+    "count": 4,
+    "id": "rusticrevived:slate_roof_stairs"
+  }
+}

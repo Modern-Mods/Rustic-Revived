@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rusticrevived:grapes"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "rusticrevived:grape_stem"
+  }
+}

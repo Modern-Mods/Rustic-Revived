@@ -1,0 +1,41 @@
+{
+  "type": "rusticrevived:condenser",
+  "advanced": true,
+  "bottle": {
+    "item": "minecraft:glass_bottle"
+  },
+  "fluid": {
+    "amount": 125,
+    "fluid": "minecraft:water"
+  },
+  "ingredients": [
+    {
+      "item": "rusticrevived:aloe_vera"
+    },
+    {
+      "item": "minecraft:brick"
+    },
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "result": {
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "duration": 3600,
+            "id": "minecraft:fire_resistance",
+            "neoforge:cures": [
+              "milk",
+              "protected_by_totem"
+            ],
+            "show_icon": true
+          }
+        ]
+      }
+    },
+    "count": 1,
+    "id": "rusticrevived:elixir"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "rusticrevived:block/table_leg_template",
+  "textures": {
+    "planks": "rusticrevived:block/planks_ironwood"
+  }
+}

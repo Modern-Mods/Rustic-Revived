@@ -1,0 +1,11 @@
+{
+  "type": "rusticrevived:evaporating_basin",
+  "fluid": {
+    "amount": 100,
+    "fluid": "rusticrevived:golden_apple_juice"
+  },
+  "result": {
+    "count": 1,
+    "id": "rusticrevived:gold_dust"
+  }
+}

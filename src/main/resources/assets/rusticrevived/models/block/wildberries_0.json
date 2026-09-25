@@ -1,0 +1,671 @@
+{
+  "render_type": "minecraft:cutout",
+  "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+  "textures": {
+    "0": "rusticrevived:block/wildberry_bush_leaves",
+    "particle": "rusticrevived:block/wildberry_bush_leaves"
+  },
+  "elements": [
+    {
+      "name": "Berry1",
+      "from": [
+        5,
+        12,
+        1
+      ],
+      "to": [
+        7,
+        14,
+        3
+      ],
+      "faces": {
+        "north": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 90
+        },
+        "east": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 270
+        },
+        "south": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 180
+        },
+        "west": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ]
+        },
+        "up": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ]
+        },
+        "down": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 90
+        }
+      }
+    },
+    {
+      "name": "Berry2",
+      "from": [
+        8,
+        7,
+        1
+      ],
+      "to": [
+        10,
+        9,
+        3
+      ],
+      "faces": {
+        "north": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ]
+        },
+        "east": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 90
+        },
+        "south": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 270
+        },
+        "west": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 180
+        },
+        "up": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 90
+        },
+        "down": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "name": "Berry3",
+      "from": [
+        1,
+        6,
+        9
+      ],
+      "to": [
+        3,
+        8,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 270
+        },
+        "east": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 180
+        },
+        "south": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ]
+        },
+        "west": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 90
+        },
+        "up": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 270
+        },
+        "down": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 180
+        }
+      }
+    },
+    {
+      "name": "Berry4",
+      "from": [
+        1,
+        13,
+        5
+      ],
+      "to": [
+        3,
+        15,
+        7
+      ],
+      "faces": {
+        "north": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 180
+        },
+        "east": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ]
+        },
+        "south": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 90
+        },
+        "west": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 270
+        },
+        "up": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 180
+        },
+        "down": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 270
+        }
+      }
+    },
+    {
+      "name": "Berry5",
+      "from": [
+        6,
+        12,
+        13
+      ],
+      "to": [
+        8,
+        14,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 270
+        },
+        "east": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 180
+        },
+        "south": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ]
+        },
+        "west": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 90
+        },
+        "up": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 270
+        },
+        "down": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 180
+        }
+      }
+    },
+    {
+      "name": "Berry6",
+      "from": [
+        10,
+        7,
+        13
+      ],
+      "to": [
+        12,
+        9,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 90
+        },
+        "east": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 270
+        },
+        "south": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 180
+        },
+        "west": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ]
+        },
+        "up": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ]
+        },
+        "down": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 90
+        }
+      }
+    },
+    {
+      "name": "Berry7",
+      "from": [
+        13,
+        8,
+        10
+      ],
+      "to": [
+        15,
+        10,
+        12
+      ],
+      "faces": {
+        "north": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 180
+        },
+        "east": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ]
+        },
+        "south": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 90
+        },
+        "west": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 270
+        },
+        "up": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 180
+        },
+        "down": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 270
+        }
+      }
+    },
+    {
+      "name": "Berry8",
+      "from": [
+        13,
+        11,
+        4
+      ],
+      "to": [
+        15,
+        13,
+        6
+      ],
+      "faces": {
+        "north": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ]
+        },
+        "east": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 90
+        },
+        "south": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 270
+        },
+        "west": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 180
+        },
+        "up": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 90
+        },
+        "down": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "name": "Berry9",
+      "from": [
+        8,
+        15,
+        4
+      ],
+      "to": [
+        10,
+        17,
+        6
+      ],
+      "faces": {
+        "north": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ]
+        },
+        "east": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 90
+        },
+        "south": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 270
+        },
+        "west": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 180
+        },
+        "up": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "rotation": 90
+        },
+        "down": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ]
+        }
+      }
+    }
+  ]
+}

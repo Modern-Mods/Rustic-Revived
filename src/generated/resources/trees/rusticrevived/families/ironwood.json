@@ -1,0 +1,7 @@
+{
+  "common_leaves": "rusticrevived:ironwood",
+  "common_species": "rusticrevived:ironwood",
+  "generate_stripped_branch": false,
+  "max_branch_radius": 8,
+  "primitive_log": "rusticrevived:ironwood_log"
+}

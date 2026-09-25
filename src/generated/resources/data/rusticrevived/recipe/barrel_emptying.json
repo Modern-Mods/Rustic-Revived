@@ -1,0 +1,13 @@
+{
+  "type": "rusticrevived:shapeless_no_remainder",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rusticrevived:liquid_barrel"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "rusticrevived:liquid_barrel"
+  }
+}

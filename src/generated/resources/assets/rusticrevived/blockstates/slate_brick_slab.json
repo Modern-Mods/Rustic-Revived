@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rusticrevived:block/slate_brick_slab"
+    },
+    "type=double": {
+      "model": "rusticrevived:block/slate_brick"
+    },
+    "type=top": {
+      "model": "rusticrevived:block/slate_brick_slab_top"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "rusticrevived:grape_seeds",
+  "chance": 0.1,
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:blocks/vine"
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "minecraft:shears"
+        }
+      }
+    }
+  ],
+  "seed": "rusticrevived:grape_stem"
+}

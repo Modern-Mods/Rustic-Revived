@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "rusticrevived:block/condenser_adv_front",
+    "side": "rusticrevived:block/condenser_adv_side",
+    "top": "rusticrevived:block/condenser_adv_top"
+  }
+}

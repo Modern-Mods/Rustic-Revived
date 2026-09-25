@@ -1,0 +1,44 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "rusticrevived:block/table_birch_top"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/table_birch_leg"
+      },
+      "when": {
+        "nw": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/table_birch_leg",
+        "y": 90
+      },
+      "when": {
+        "ne": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/table_birch_leg",
+        "y": 180
+      },
+      "when": {
+        "se": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "rusticrevived:block/table_birch_leg",
+        "y": 270
+      },
+      "when": {
+        "sw": "true"
+      }
+    }
+  ]
+}

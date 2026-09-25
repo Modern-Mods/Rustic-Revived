@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:book"
+    },
+    "I": {
+      "tag": "c:nuggets/iron"
+    },
+    "O": {
+      "item": "rusticrevived:olives"
+    }
+  },
+  "pattern": [
+    " O ",
+    "IBI",
+    " I "
+  ],
+  "result": {
+    "count": 1,
+    "id": "rusticrevived:almanac"
+  }
+}

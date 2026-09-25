@@ -1,0 +1,7 @@
+{
+  "common_leaves": "rusticrevived:olive",
+  "common_species": "rusticrevived:olive",
+  "generate_stripped_branch": false,
+  "max_branch_radius": 8,
+  "primitive_log": "rusticrevived:olive_log"
+}

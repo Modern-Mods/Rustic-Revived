@@ -1,0 +1,3 @@
+Rope can be crafted with string, and can be used as a replacement for ladders, for decoration, or for growing [grapes](https://github.com/the-realest-stu/Rustic/wiki/Grapes). Ropes can be placed horizontally, off of solid blocks, or vertically, hanging from a solid block or more rope. Right-clicking a rope block with rope in your hand will attempt to place more rope underneath the rope block you clicked. This allows you to easily create long lines of vertical rope. Ropes can also be tied to [crop stakes](https://github.com/the-realest-stu/Rustic/wiki/Crop-Stakes). Tied crop stakes count as solid blocks for supporting rope.
+
+![](http://i.imgur.com/cKnvZES.png)

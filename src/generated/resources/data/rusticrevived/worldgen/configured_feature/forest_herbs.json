@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "rusticrevived:chamomile",
+            "Properties": {
+              "age": "3"
+            }
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "Name": "rusticrevived:cohosh",
+            "Properties": {
+              "age": "3"
+            }
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "Name": "rusticrevived:ginseng",
+            "Properties": {
+              "age": "3"
+            }
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "Name": "rusticrevived:horsetail",
+            "Properties": {
+              "age": "3"
+            }
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "Name": "rusticrevived:vanta_lily",
+            "Properties": {
+              "age": "3"
+            }
+          },
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

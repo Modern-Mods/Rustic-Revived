@@ -1,0 +1,149 @@
+{
+  "render_type": "minecraft:cutout",
+  "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+  "textures": {
+    "0": "rusticrevived:block/condenser_top_side",
+    "1": "rusticrevived:block/condenser_top",
+    "particle": "rusticrevived:block/condenser_top_side"
+  },
+  "elements": [
+    {
+      "name": "Cube",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        4,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#0",
+          "uv": [
+            0,
+            12,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#0",
+          "uv": [
+            0,
+            12,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#0",
+          "uv": [
+            0,
+            12,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#0",
+          "uv": [
+            0,
+            12,
+            16,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#1",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#1",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cube",
+      "from": [
+        4,
+        4,
+        4
+      ],
+      "to": [
+        12,
+        8,
+        12
+      ],
+      "faces": {
+        "north": {
+          "texture": "#0",
+          "uv": [
+            4,
+            8,
+            12,
+            12
+          ]
+        },
+        "east": {
+          "texture": "#0",
+          "uv": [
+            4,
+            8,
+            12,
+            12
+          ]
+        },
+        "south": {
+          "texture": "#0",
+          "uv": [
+            4,
+            8,
+            12,
+            12
+          ]
+        },
+        "west": {
+          "texture": "#0",
+          "uv": [
+            4,
+            8,
+            12,
+            12
+          ]
+        },
+        "up": {
+          "texture": "#1",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ]
+        },
+        "down": {
+          "texture": "#1",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ]
+        }
+      }
+    }
+  ]
+}

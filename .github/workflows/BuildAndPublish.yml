@@ -1,0 +1,78 @@
+name: Build and Release
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "Neo/1.21.1"
+    paths:
+      - "src/**"
+      - "gradle.properties"
+      - "build.gradle"
+      - "settings.gradle"
+      - "gradlew"
+      - "gradle/**"
+      - ".github/workflows/BuildAndPublish.yml"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          java-version: "21"
+          distribution: "temurin"
+
+      - name: Read Version
+        id: gradle_props
+        run: |
+          # tr -d elimina espacios y \r que rompen el nombre del tag
+          VERSION=$(grep '^mod_version=' gradle.properties | cut -d'=' -f2 | tr -d '[:space:]')
+          MC=$(grep '^minecraft_version=' gradle.properties | cut -d'=' -f2 | tr -d '[:space:]')
+          if [ -z "$VERSION" ]; then
+            echo "ERROR: no se encontro mod_version en gradle.properties"
+            exit 1
+          fi
+          echo "mod_version=$VERSION" >> "$GITHUB_OUTPUT"
+          # Incluye la version de Minecraft para que cada rama tenga tags unicos
+          echo "release_version=${VERSION}+mc${MC}-build.${{ github.run_number }}" >> "$GITHUB_OUTPUT"
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Make gradlew executable
+        run: chmod +x gradlew
+
+      - name: Build
+        run: ./gradlew build
+
+      - name: Create Tag
+        env:
+          TAG: v${{ steps.gradle_props.outputs.release_version }}
+        run: |
+          if git ls-remote --exit-code --tags origin "refs/tags/$TAG" > /dev/null; then
+            echo "El tag $TAG ya existe, se reutiliza."
+          else
+            git tag "$TAG"
+            git push origin "$TAG"
+          fi
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.gradle_props.outputs.release_version }}
+          name: RusticRevived ${{ steps.gradle_props.outputs.release_version }}
+          generate_release_notes: true
+          files: |
+            build/libs/*.jar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

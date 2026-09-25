@@ -1,0 +1,10 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "rusticrevived:config",
+      "option": "enableOliveOiling"
+    }
+  ],
+  "type": "rusticrevived:olive_oil",
+  "category": "misc"
+}

@@ -1,0 +1,43 @@
+{
+  "variants": {
+    "variant=0": {
+      "model": "rusticrevived:vases/vase_0"
+    },
+    "variant=1": {
+      "model": "rusticrevived:vases/vase_1"
+    },
+    "variant=10": {
+      "model": "rusticrevived:vases/vase_10"
+    },
+    "variant=11": {
+      "model": "rusticrevived:vases/vase_11"
+    },
+    "variant=12": {
+      "model": "rusticrevived:vases/vase_12"
+    },
+    "variant=2": {
+      "model": "rusticrevived:vases/vase_2"
+    },
+    "variant=3": {
+      "model": "rusticrevived:vases/vase_3"
+    },
+    "variant=4": {
+      "model": "rusticrevived:vases/vase_4"
+    },
+    "variant=5": {
+      "model": "rusticrevived:vases/vase_5"
+    },
+    "variant=6": {
+      "model": "rusticrevived:vases/vase_6"
+    },
+    "variant=7": {
+      "model": "rusticrevived:vases/vase_7"
+    },
+    "variant=8": {
+      "model": "rusticrevived:vases/vase_8"
+    },
+    "variant=9": {
+      "model": "rusticrevived:vases/vase_9"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "rusticrevived:block/chair_spruce",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "rusticrevived:block/chair_spruce"
+    },
+    "facing=south": {
+      "model": "rusticrevived:block/chair_spruce",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rusticrevived:block/chair_spruce",
+      "y": 270
+    }
+  }
+}

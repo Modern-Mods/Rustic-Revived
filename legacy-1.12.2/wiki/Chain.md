@@ -1,3 +1,0 @@
-Chain can be crafted with iron, and can be used as a replacement for ladders, or for decoration. Chains can be placed horizontally, off of solid blocks, or vertically, hanging from a solid block or more chain. Right-clicking a chain block with chain in your hand will attempt to place more chain blocks underneath the chain block you clicked. This allows you to easily create long lines of vertical chain.
-
-![](http://i.imgur.com/DvJLXhx.png)

@@ -1,6 +1,0 @@
-{
-	"parent": "rustic:block/stake_crop",
-	"textures": {
-        	"crop": "rustic:blocks/tomato_crop_3"
-    	}
-}

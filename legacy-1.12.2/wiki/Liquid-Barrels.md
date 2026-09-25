@@ -1,3 +1,0 @@
-Liquid Barrels can be crafted with any wood planks, any wood slabs, and iron. They hold up to 16 buckets of liquid, and will retain their contents when destroyed. Liquid Barrels can only hold liquids that are not gaseous, and are below a certain temperature. If left outside in the rain, liquid barrels will slowly collect water, but only if they are empty or contain water already.
-
-![](http://i.imgur.com/VuipL3J.png)

@@ -1,1 +1,0 @@
-[Home](https://github.com/the-realest-stu/Rustic/wiki)

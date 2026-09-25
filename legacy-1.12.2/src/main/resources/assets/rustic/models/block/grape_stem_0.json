@@ -1,6 +1,0 @@
-{
-    "parent": "block/cross",
-    "textures": {
-        "cross": "rustic:blocks/grape_stem_0"
-    }
-}

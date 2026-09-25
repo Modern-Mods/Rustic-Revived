@@ -1,5 +1,0 @@
-When Rustic is installed, the vanilla armor HUD is modified. It is allowed to extend into a second row if necessary (further rows will never be used unless you are using mods that extend vanilla's limit on the player's armor stat, which is 40). Additionally, when the player's armor toughness stat is greater than zero, an extra HUD element will appear above the food meter to display the exact armor toughness stat. Each Half shield is equivalent to one unit of toughness. The toughness bar will only ever take up a maximum of two rows (further rows are not possible unless you are using mods that extend vanilla's limit on armor toughness, which is 30).  
-Both the extra armor rows and the armor toughness bar can be individually disabled in the mod's config file.
-
-![](http://i.imgur.com/3Efoyzi.png)  
-_The armor HUD with diamond boots, leggings, and chestplate equipped_

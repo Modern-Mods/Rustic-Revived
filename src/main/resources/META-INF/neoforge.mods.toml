@@ -9,17 +9,16 @@ version = "${mod_version}"
 displayName = "${mod_name}"
 authors = "${mod_authors}"
 description = '''${mod_description}'''
-logoFile = "almanac.png"
+logoFile = "logo.png"
 
-# Registry / resource namespace. Declared as its own mod so the namespace resolves to "Rustic Revived"
-# (JEI @rustic and @rusticrevived both find every item).
+
 [[mods]]
 modId = "${mod_namespace}"
 version = "${mod_version}"
 displayName = "${mod_name}"
 authors = "${mod_authors}"
-description = '''Registry namespace of ${mod_name} (mod id ${mod_id}).'''
-logoFile = "almanac.png"
+description = '''${mod_description}'''
+logoFile = "logo.png"
 
 [[dependencies.${mod_id}]]
 modId = "neoforge"
